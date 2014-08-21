@@ -12,11 +12,11 @@ We will demonstrate the potential of turing the body into a musical instrument t
 
 We will do a number of fun movement exercises, as well as show off different potential modes of body movement and touching: 
 
--1 to 1
+- 1 to 1
 
--1 to Many
+- 1 to Many
 
--Many to Many
+- Many to Many
 
 As well as different audio synthesis methods that can be used depending on what kind of movement and touch you want to use:
 
@@ -58,6 +58,6 @@ https://www.youtube.com/watch?v=nTTZZyD4xlE
 
 http://dentakulondon.com/ototo/
 
-Mizaru https://vimeo.com/72078922 (jump to 7:00)
+Mizaru - https://vimeo.com/72078922 (jump to 7:00)
 
 More references and details are currently found in the schedule (link above!)
