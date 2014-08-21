@@ -64,4 +64,8 @@ http://drymonitis.me/code/
 
 http://reso-nance.org/wiki/logiciels/serial/accueil
 
+http://en.flossmanuals.net/pure-data/audio-tutorials/4-stage-sequencer/
+
+https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC
+
 More references and details are currently found in the schedule (link above!)
