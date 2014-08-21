@@ -60,4 +60,8 @@ http://dentakulondon.com/ototo/
 
 Mizaru - https://vimeo.com/72078922 (jump to 7:00)
 
+http://drymonitis.me/code/
+
+http://reso-nance.org/wiki/logiciels/serial/accueil
+
 More references and details are currently found in the schedule (link above!)
