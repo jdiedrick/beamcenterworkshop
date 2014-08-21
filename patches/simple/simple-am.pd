@@ -1,0 +1,84 @@
+#N canvas 158 68 1271 724 10;
+#X obj 615 212 print ERROR;
+#X obj 504 179 convert.ascii2pd CR;
+#N canvas 712 205 905 623 in&out 0;
+#X obj 114 116 list-extend;
+#X obj 191 77 sel 10;
+#X msg 191 185 54;
+#X obj 190 157 prepend set;
+#X obj 193 236 gate;
+#X msg 126 209 0;
+#X msg 160 207 1;
+#X obj 116 30 inlet;
+#X obj 198 268 outlet;
+#X obj 87 80 route 10;
+#X connect 0 0 3 0;
+#X connect 1 0 0 1;
+#X connect 1 0 6 0;
+#X connect 1 0 2 0;
+#X connect 1 1 5 0;
+#X connect 2 0 4 1;
+#X connect 3 0 2 0;
+#X connect 4 0 8 0;
+#X connect 5 0 4 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X connect 7 0 9 0;
+#X connect 9 1 0 0;
+#X restore 504 155 pd in&out;
+#X floatatom 511 275 5 0 0 0 - - -;
+#X obj 504 131 comport 2 9600;
+#X msg 504 108 devices;
+#X text 602 125 < change the numer 2 to the comport used by Arduino
+;
+#X text 567 108 < Click me to see what is connected to serial port
+;
+#X text 578 156 < click me to see what's in the sub patch;
+#X text 637 180 < don't worry about this one!;
+#X text 294 30 Arduino 2 Pd - communication protocole by recyclism
+;
+#X text 292 44 NOTE: You need to have the file convert.ascii2pd.pd
+in the same folder as this patch;
+#X text 641 236 < unpack each sensor vaule (or switches connected)
+;
+#X text 603 137 < change the numer 9600 to the boudrate used by Arduino
+;
+#X obj 498 483 *~;
+#X obj 496 514 dac~;
+#X floatatom 445 397 5 0 0 0 - - -;
+#X text 563 327 Mod Frequency;
+#X obj 516 417 osc~;
+#X floatatom 516 385 5 0 0 0 - - -;
+#X msg 336 361 440;
+#X obj 332 331 loadbang;
+#X floatatom 518 335 5 0 0 0 - - -;
+#X text 88 333 Carrier Frequency (Feel free to change!);
+#X obj 563 430 vsl 15 64 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 1400 1;
+#X text 583 457 volume;
+#X obj 505 234 unpack 0;
+#X obj 499 452 *~;
+#X obj 467 423 osc~;
+#X obj 392 356 autoscale 440 880;
+#X obj 517 358 autoscale 0 20;
+#X connect 1 0 26 0;
+#X connect 1 2 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 22 0;
+#X connect 3 0 29 0;
+#X connect 3 0 16 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
+#X connect 14 0 15 0;
+#X connect 14 0 15 1;
+#X connect 16 0 28 0;
+#X connect 18 0 27 1;
+#X connect 19 0 18 0;
+#X connect 20 0 16 0;
+#X connect 21 0 20 0;
+#X connect 22 0 30 0;
+#X connect 24 0 14 1;
+#X connect 26 0 3 0;
+#X connect 27 0 14 0;
+#X connect 28 0 27 0;
+#X connect 30 0 19 0;
