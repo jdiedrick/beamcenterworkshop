@@ -1,0 +1,8 @@
+#N canvas 403 43 450 300 10;
+#X obj 98 48 comport 9600;
+#X msg 100 17 devices;
+#X msg 168 14 open 2;
+#X obj 85 160 print;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
