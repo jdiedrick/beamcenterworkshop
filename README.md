@@ -1,13 +1,10 @@
 For the Making Musical Instruments workshop, we will present a short series of movement exercises that demonstate the musical potential of the human body through body movement and body touch, facilitated through a simple variable resistive circuit.
 
+In this repo you will find Pd/Max patches and Arduino code, as well as details for the Arduino circuit.
 
-In this repo you will find:
+Schedule: 
 
--Schedule
-
--Pure data patches
-
--Arduino code
+https://docs.google.com/document/d/1joN4vhfK523-y1FENzKwytIi53nC0Ycn9Y7xswIJA4Q/edit?usp=sharing
 
 Overview:
 
@@ -23,34 +20,44 @@ We will do a number of fun movement exercises, as well as show off different pot
 
 As well as different audio synthesis methods that can be used depending on what kind of movement and touch you want to use:
 
-- nime first insturment
+- Pentatonic scale
 
-- simple synth with additional modulation
+- Simple synth with additional modulation
 
-- hits and samples
+- Hits and samples
 
-- sequencer
+- Sequencer
 
-- bpm/filter modulation
+- BPM/filter modulation
 
--pre sequenced melody
+- Presequenced melody
 
--sample playback
+- Sample playback
 
-At the end, we will have the students present 1 minute short presentations.
+At the end, we will have the students perform short presentations.
 
-references:
-aaron's mizuru
-http://dentakulondon.com/ototo/
+Pitch to Frequency Scale: 
 
+http://www.phy.mtu.edu/~suits/notefreqs.html
 
-Intro to instrument:
+Resistor Calculator:
+
+http://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band
+
+For the circuit, we use one 1M resistor (Brown, black, green, gold)
+
+References:
+
 https://vimeo.com/49462458
 
 http://nf-interactive.blogspot.com/2011/02/arduino-data-to-pure-data.html
 
 http://www.makeymakey.com/forums/index.php?topic=1267.0
 
-right now, simple-moregeneric.pd
-
 https://www.youtube.com/watch?v=nTTZZyD4xlE
+
+http://dentakulondon.com/ototo/
+
+Mizaru https://vimeo.com/72078922 (jump to 7:00)
+
+More references and details are currently found in the schedule (link above!)
